@@ -92,13 +92,13 @@ function result4() {
 
 function updateResult() {
   if (totalScore > 16) {
-    result.innerHTML = "You are Holden";
+    result.innerHTML = "You are Mr.Antolini";
   } else if (totalScore > 12) {
-    result.innerHTML = "You are Phoebe";
+    result.innerHTML = "You are Ward Stradlater";
   } else if (totalScore > 8) {
-    result.innerHTML = "You are Stradlater";
+    result.innerHTML = "You are Phoebe Caulfield";
   } else {
-    result.innerHTML = "You are Mr. Antolloni";
+    result.innerHTML = "You are Holden Caulfield";
   }
 
 }
